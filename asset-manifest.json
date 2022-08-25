@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a24f9738.css",
+    "main.js": "/portfolio/static/js/main.05a143f7.js",
+    "static/media/Flows.png": "/portfolio/static/media/Flows.972e576b997811b0478b.png",
+    "static/media/ECommerceNew.png": "/portfolio/static/media/ECommerceNew.994ed145623054792672.png",
+    "static/media/Stripe.png": "/portfolio/static/media/Stripe.57da9e924e568a1b067c.png",
+    "static/media/MyPicTransparent.png": "/portfolio/static/media/MyPicTransparent.d3461eb2238e691cfbf0.png",
+    "static/media/WhatsApp.jpg": "/portfolio/static/media/WhatsApp.643911fb5ea028e19f8a.jpg",
+    "static/media/GoogleSheet.jpg": "/portfolio/static/media/GoogleSheet.46d1390da7438f8ef31c.jpg",
+    "static/media/CsvDownloader.jpg": "/portfolio/static/media/CsvDownloader.d17dff4eeceb148e9067.jpg",
+    "static/media/GoogleDrive.jpg": "/portfolio/static/media/GoogleDrive.8eedb02c7559b71db4c9.jpg",
+    "static/media/glassesimoji.png": "/portfolio/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/OmniStudioDeveloper.png": "/portfolio/static/media/OmniStudioDeveloper.ce475ec5874d18e7af40.png",
+    "static/media/OmniStudioConsultant.png": "/portfolio/static/media/OmniStudioConsultant.e74ef28e0bdf515e56a2.png",
+    "static/media/JavaScripDeveloper1.png": "/portfolio/static/media/JavaScripDeveloper1.1df9fb7a2af2fa91af7d.png",
+    "static/media/PlatformDeveloper1.png": "/portfolio/static/media/PlatformDeveloper1.71dbd1f20ac38922343b.png",
+    "static/media/Administrator.png": "/portfolio/static/media/Administrator.83365dc3b08964b7f693.png",
+    "static/media/Udemy.png": "/portfolio/static/media/Udemy.f08976a3c8d62a0175b6.png",
+    "static/media/Gumela Regular.otf": "/portfolio/static/media/Gumela Regular.0ae83c6988a536716eb4.otf",
+    "static/media/Paypal.png": "/portfolio/static/media/Paypal.a239d74739c0fcbb4a65.png",
+    "static/media/thumbup.png": "/portfolio/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/humble.png": "/portfolio/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/portfolio/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/wave.png": "/portfolio/static/media/wave.fdfef4069ad90f610990.png",
+    "static/media/crown.png": "/portfolio/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/Vector2.png": "/portfolio/static/media/Vector2.28db5bfd58081dd1df1b.png",
+    "static/media/glasses.png": "/portfolio/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "static/media/Youtube.png": "/portfolio/static/media/Youtube.73f65abe088c6b2ae3d1.png",
+    "index.html": "/portfolio/index.html",
+    "main.a24f9738.css.map": "/portfolio/static/css/main.a24f9738.css.map",
+    "main.05a143f7.js.map": "/portfolio/static/js/main.05a143f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a24f9738.css",
+    "static/js/main.05a143f7.js"
+  ]
+}
