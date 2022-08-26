@@ -110,7 +110,7 @@ const Intro = () => {
 				/>
 				<motion.div
 					initial={{ top: "-4%", left: "74%" }}
-					whileInView={{ left: "68%" }}
+					whileInView={{ left: "58%" }}
 					transition={transition}
 					className="floating-div"
 				>
@@ -132,6 +132,7 @@ const Intro = () => {
 						image={thumbup}
 						txt1="Pakistan Dreamin 2022"
 						txt2="Excellence Award"
+						secondDiv="true"
 					/>
 				</motion.div>
 				{/* BLUR DIVS */}

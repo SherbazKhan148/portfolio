@@ -26,14 +26,14 @@ const Contact = () => {
 			document.body.appendChild(theiFrame);
 		}
 
-		formElements["retURL"] = "http://127.0.0.1";
+		formElements["retURL"] = "https://sherbazkhan148.github.io/portfolio/";
 		let form = document.createElement("form");
 		form.method = "POST";
 		form.action =
 			"https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8";
 		form.setAttribute("target", customHiddenIframeName);
 		formElements.forEach((element) => {
-			console.log(element);
+			// console.log(element);
 			let theInput = document.createElement("input");
 			theInput.name = element.name;
 			theInput.value = element.value;
@@ -62,14 +62,13 @@ const Contact = () => {
 			</div>
 			{/* right side form */}
 			<div className="c-right">
-				<form
-					// ref={form}
-					onSubmit={submitForm}
-					// action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8"
-					// method="POST"
-				>
+				<form onSubmit={submitForm}>
 					<input type="hidden" name="orgid" value="00D5f000005tQbQ" />
-					<input type="hidden" name="retURL" value="localhost:3000" />
+					<input
+						type="hidden"
+						name="retURL"
+						value="https://sherbazkhan148.github.io/portfolio/"
+					/>
 					<input
 						type="hidden"
 						id="external"
@@ -84,18 +83,21 @@ const Contact = () => {
 						type="text"
 						className="user"
 						placeholder="Subject"
+						required
 					/>
 					<input
 						type="text"
 						name="name"
 						className="user"
 						placeholder="Name"
+						required
 					/>
 					<input
 						type="email"
 						name="email"
 						className="user"
 						placeholder="Email"
+						required
 					/>
 					<input
 						id="phone"
@@ -105,11 +107,13 @@ const Contact = () => {
 						type="text"
 						placeholder="Mobile Number"
 						className="user"
+						required
 					/>
 					<textarea
 						name="description"
 						className="user"
 						placeholder="Message"
+						required
 					/>
 					<input type="submit" value="Send" className="button" />
 					<span>{done && "Thanks for Contacting me"}</span>
@@ -155,15 +159,12 @@ export default Contact;
 	// 	console.log(e.target.name);
 	// };
      
-    <form
-					action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8"
-					method="POST"
-				>
+   <form onSubmit={submitForm}>
 					<input type="hidden" name="orgid" value="00D5f000005tQbQ" />
 					<input
 						type="hidden"
 						name="retURL"
-						value="https://localhost:3000"
+						value="https://sherbazkhan148.github.io/portfolio/"
 					/>
 					<input
 						type="hidden"
@@ -171,24 +172,27 @@ export default Contact;
 						name="external"
 						value="1"
 					/>
-
 					<input
-						id="subject"
-						maxLength="80"
-						name="subject"
+						id="first_name"
+						maxlength="40"
+						name="first_name"
 						size="20"
 						type="text"
 						className="user"
-						placeholder="Subject"
+						placeholder="First Name"
 					/>
-
 					<input
+						id="last_name"
+						maxlength="80"
+						name="last_name"
+						size="20"
 						type="text"
-						name="name"
 						className="user"
-						placeholder="Name"
+						placeholder="Last Name"
+						required
 					/>
 					<input
+						id="email"
 						type="email"
 						name="email"
 						className="user"
@@ -204,19 +208,11 @@ export default Contact;
 						className="user"
 					/>
 					<textarea
-						name="message"
+						name="description"
 						className="user"
 						placeholder="Message"
-						rows="4"
 					/>
-
-					<button
-						type="submit"
-						value="Send"
-						className="button button-submit"
-					>
-						Send
-					</button>
+					<input type="submit" value="Send" className="button" />
 					<span>{done && "Thanks for Contacting me"}</span>
 					<div
 						className="blur c-blur1"

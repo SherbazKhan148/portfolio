@@ -17,6 +17,7 @@ import { themeContext } from "../../Context";
 // import { motion } from "framer-motion";
 // import { Link } from "react-scroll";
 import { motion } from "framer-motion";
+import { Link } from "react-scroll";
 
 const Works = () => {
 	// context
@@ -41,7 +42,9 @@ const Works = () => {
 						<br />
 						and also looking forward for the CPQ Certification
 					</span>
-					<button className="button s-button">Hire Me</button>
+					<Link to="contact" spy={true} smooth={true}>
+						<button className="button s-button">Hire Me</button>
+					</Link>
 					{/* <Link to="contact" smooth={true} spy={true}>
 					</Link> */}
 					<div

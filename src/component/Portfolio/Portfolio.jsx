@@ -14,11 +14,13 @@ import GoogleSheet from "../../img/GoogleSheet.jpg";
 import Paypal from "../../img/Paypal.png";
 import WhatsApp from "../../img/WhatsApp.jpg";
 import Stripe from "../../img/Stripe.png";
+import Proshop from "../../img/Proshop.png";
 
 import { themeContext } from "../../Context";
 const Portfolio = () => {
 	const theme = useContext(themeContext);
 	const darkMode = theme.state.darkMode;
+
 	return (
 		<div className="portfolio" id="portfolio">
 			{/* heading */}
@@ -36,122 +38,225 @@ const Portfolio = () => {
 				className="portfolio-slider"
 			>
 				<SwiperSlide>
-					<a
-						href="https://www.youtube.com/watch?v=07vsHXqCN2k"
-						target="_blank"
-						rel="noreferrer"
-					>
-						<h1>Demo of Salesforce WhatsApp Integration - LWC</h1>
-						<img
-							src={WhatsApp}
-							alt=""
-							style={{ cursor: "pointer" }}
-							height={250}
-							width={380}
-						/>
-					</a>
+					<div className="flip-box">
+						<a
+							href="https://www.youtube.com/watch?v=07vsHXqCN2k"
+							target="_blank"
+							rel="noreferrer"
+							style={{ width: "100%", height: "100%" }}
+						>
+							<div className="flip-box-inner">
+								<div className="flip-box-front">
+									<img
+										src={WhatsApp}
+										alt=""
+										height={250}
+										width={380}
+									/>
+								</div>
+								<div className="flip-box-back">
+									<span>
+										Salesforce & WhatsApp Real Time
+										Integration - LWC
+									</span>
+								</div>
+							</div>
+						</a>
+					</div>
 				</SwiperSlide>
 				<SwiperSlide>
-					<a
-						href="https://sherbaz-lwc-ecommerce.herokuapp.com/"
-						target="_blank"
-						rel="noreferrer"
-					>
-						<h1>E-Commerce Webiste built - LWC OSS</h1>
-						<img
-							src={ECommerceNew}
-							alt=""
-							style={{ cursor: "pointer" }}
-							height={250}
-							width={380}
-						/>
-					</a>
+					<div className="flip-box">
+						<a
+							href="https://sherbaz-lwc-ecommerce.herokuapp.com/"
+							target="_blank"
+							rel="noreferrer"
+							style={{ zIndex: "10" }}
+						>
+							<div className="flip-box-inner">
+								<div className="flip-box-front">
+									<img
+										src={ECommerceNew}
+										alt=""
+										height={250}
+										width={380}
+									/>
+								</div>
+								<div className="flip-box-back">
+									<span>
+										E-Commerce Webiste with Stripe - LWC OSS
+									</span>
+								</div>
+							</div>
+						</a>
+					</div>
 				</SwiperSlide>
 				<SwiperSlide>
-					<a
-						href="https://www.youtube.com/watch?v=bz-QLcEVeX8"
-						target="_blank"
-						rel="noreferrer"
-					>
-						<h1>Demo of Salesforce to Google Drive - LWC</h1>
-						<img
-							src={GoogleDrive}
-							alt=""
-							style={{ cursor: "pointer" }}
-							height={250}
-							width={380}
-						/>
-					</a>
+					<div className="flip-box">
+						<a
+							href="https://sherbaz148proshop.herokuapp.com/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<div className="flip-box-inner">
+								<div className="flip-box-front">
+									<img
+										src={Proshop}
+										alt=""
+										height={250}
+										width={380}
+									/>
+								</div>
+								<div className="flip-box-back">
+									<span>
+										E-Commerce Webiste with Stripe - REACT
+										and NODE
+									</span>
+								</div>
+							</div>
+						</a>
+					</div>
+				</SwiperSlide>
+				<SwiperSlide>
+					<div className="flip-box">
+						<a
+							href="https://www.youtube.com/watch?v=bz-QLcEVeX8"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<div className="flip-box-inner">
+								<div className="flip-box-front">
+									<img
+										src={GoogleDrive}
+										alt=""
+										height={250}
+										width={380}
+									/>
+								</div>
+								<div className="flip-box-back">
+									<span>
+										Salesforce & Google Drive Integration -
+										LWC
+									</span>
+								</div>
+							</div>
+						</a>
+					</div>
 				</SwiperSlide>
 
 				<SwiperSlide>
-					<a
-						href="https://www.youtube.com/watch?v=fW1zjuwWqb4"
-						target="_blank"
-						rel="noreferrer"
-					>
-						<h1>Demo of Salesforce to Google Sheet - LWC</h1>
-						<img
-							src={GoogleSheet}
-							alt=""
-							style={{ cursor: "pointer" }}
-							height={250}
-							width={380}
-						/>
-					</a>
+					<div className="flip-box">
+						<a
+							href="https://www.youtube.com/watch?v=fW1zjuwWqb4"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<div className="flip-box-inner">
+								<div className="flip-box-front">
+									<img
+										src={GoogleSheet}
+										alt=""
+										height={250}
+										width={380}
+									/>
+								</div>
+								<div className="flip-box-back">
+									<span>
+										Salesforce & Google Sheet Integration -
+										LWC
+									</span>
+								</div>
+							</div>
+						</a>
+					</div>
 				</SwiperSlide>
 				<SwiperSlide>
-					<h1>Paypal Advance Checkout Integration - LWC</h1>
-					<img
-						src={Paypal}
-						alt=""
-						style={{ cursor: "pointer" }}
-						height={250}
-						width={380}
-					/>
+					<div className="flip-box">
+						<div className="flip-box-inner">
+							<div className="flip-box-front">
+								<img
+									src={Paypal}
+									alt=""
+									height={250}
+									width={380}
+								/>
+							</div>
+							<div className="flip-box-back">
+								<span>
+									Paypal Advance Checkout Integration - LWC
+									and VF Page
+								</span>
+							</div>
+						</div>
+					</div>
 				</SwiperSlide>
 				<SwiperSlide>
-					<h1>Stripe Integration - LWC</h1>
-					<img
-						src={Stripe}
-						alt=""
-						style={{ cursor: "pointer" }}
-						height={250}
-						width={380}
-					/>
+					<div className="flip-box">
+						<div className="flip-box-inner">
+							<div className="flip-box-front">
+								<img
+									src={Stripe}
+									alt=""
+									style={{ cursor: "pointer" }}
+									height={250}
+									width={380}
+								/>
+							</div>
+							<div className="flip-box-back">
+								<span>
+									Stripe Integration - LWC and VF Page
+								</span>
+							</div>
+						</div>
+					</div>
 				</SwiperSlide>
 
 				<SwiperSlide>
-					<a
-						href="https://www.youtube.com/watch?v=U2--wgtNIEI"
-						target="_blank"
-						rel="noreferrer"
-					>
-						<h1>Demo of Salesforce to CSV Downloader - LWC</h1>
-						<img
-							src={CsvDownloader}
-							alt=""
-							style={{ cursor: "pointer" }}
-							height={250}
-							width={380}
-						/>
-					</a>
+					<div className="flip-box">
+						<a
+							href="https://www.youtube.com/watch?v=U2--wgtNIEI"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<div className="flip-box-inner">
+								<div className="flip-box-front">
+									<img
+										src={CsvDownloader}
+										alt=""
+										height={250}
+										width={380}
+									/>
+								</div>
+								<div className="flip-box-back">
+									<span>
+										Export Salesforce Records to CSV - LWC
+									</span>
+								</div>
+							</div>
+						</a>
+					</div>
 				</SwiperSlide>
 				<SwiperSlide>
-					<a
-						href="https://www.udemy.com/user/sherbaz-42/"
-						target="_blank"
-						rel="noreferrer"
-					>
-						<h1>Udemy Courses on Salesforce Flows</h1>
-						<img
-							src={Flows}
-							alt=""
-							style={{ cursor: "pointer" }}
-							height={250}
-							width={380}
-						/>
-					</a>
+					<div className="flip-box">
+						<a
+							href="https://www.udemy.com/user/sherbaz-42/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<div className="flip-box-inner">
+								<div className="flip-box-front">
+									<img
+										src={Flows}
+										alt=""
+										height={250}
+										width={380}
+									/>
+								</div>
+								<div className="flip-box-back">
+									<span>My Udemy Courses - FLOWS</span>
+								</div>
+							</div>
+						</a>
+					</div>
 				</SwiperSlide>
 			</Swiper>
 		</div>

@@ -40,17 +40,17 @@ const Services = () => {
 					<span className="eachCharacterInServices">s</span>
 				</span>
 				<span>
-					Certified Salesforce Developer with expertise in Admin and
+					<button
+						className="button s-button"
+						onClick={(e) => handleClick(e)}
+					>
+						Download CSV
+					</button>
+					{/* Certified Salesforce Developer with expertise in Admin and
 					Development <br />
 					Avaibale for part-time work specifically for Custom
-					Development in Salesforce
+					Development in Salesforce */}
 				</span>
-				<button
-					className="button s-button"
-					onClick={(e) => handleClick(e)}
-				>
-					Download CSV
-				</button>
 				<div
 					className="blur s-blur1"
 					style={{ background: "#ABF1FF94" }}
