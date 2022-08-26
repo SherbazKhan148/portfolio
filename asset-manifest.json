@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.7da5ce68.css",
-    "main.js": "/portfolio/static/js/main.5ccf8a6c.js",
+    "main.js": "/portfolio/static/js/main.0f758280.js",
     "static/media/Flows.png": "/portfolio/static/media/Flows.972e576b997811b0478b.png",
     "static/media/ECommerceNew.png": "/portfolio/static/media/ECommerceNew.994ed145623054792672.png",
     "static/media/Stripe.png": "/portfolio/static/media/Stripe.57da9e924e568a1b067c.png",
     "static/media/MyPicTransparent.png": "/portfolio/static/media/MyPicTransparent.d3461eb2238e691cfbf0.png",
     "static/media/WhatsApp.jpg": "/portfolio/static/media/WhatsApp.643911fb5ea028e19f8a.jpg",
     "static/media/GoogleSheet.jpg": "/portfolio/static/media/GoogleSheet.46d1390da7438f8ef31c.jpg",
+    "static/media/Proshop.png": "/portfolio/static/media/Proshop.9eda744aaf0e6cbc883e.png",
     "static/media/CsvDownloader.jpg": "/portfolio/static/media/CsvDownloader.d17dff4eeceb148e9067.jpg",
     "static/media/GoogleDrive.jpg": "/portfolio/static/media/GoogleDrive.8eedb02c7559b71db4c9.jpg",
     "static/media/glassesimoji.png": "/portfolio/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
@@ -29,10 +30,10 @@
     "static/media/Youtube.png": "/portfolio/static/media/Youtube.73f65abe088c6b2ae3d1.png",
     "index.html": "/portfolio/index.html",
     "main.7da5ce68.css.map": "/portfolio/static/css/main.7da5ce68.css.map",
-    "main.5ccf8a6c.js.map": "/portfolio/static/js/main.5ccf8a6c.js.map"
+    "main.0f758280.js.map": "/portfolio/static/js/main.0f758280.js.map"
   },
   "entrypoints": [
     "static/css/main.7da5ce68.css",
-    "static/js/main.5ccf8a6c.js"
+    "static/js/main.0f758280.js"
   ]
 }
