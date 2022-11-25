@@ -10,6 +10,7 @@ import PlatformDeveloper1 from "../../img/PlatformDeveloper1.png";
 import JavaScripDeveloper1 from "../../img/JavaScripDeveloper1.png";
 import OmniStudioConsultant from "../../img/OmniStudioConsultant.png";
 import OmniStudioDeveloper from "../../img/OmniStudioDeveloper.png";
+import PD2 from "../../img/PD2.png";
 import { themeContext } from "../../Context";
 // import Facebook from "../../img/Facebook.png";
 // import Facebook from "../../img/Facebook.png";
@@ -37,10 +38,10 @@ const Works = () => {
 					</span>
 					<span>Certifications</span>
 					<span>
-						5x Certified Salesforce Developer. Will grab more
-						certifications in upcoming months
-						<br />
-						and also looking forward for the CPQ Certification
+						6x Certified Salesforce Developer (Inlcuding <b>PD2</b>{" "}
+						and <b>JS1</b>). Will grab more certifications
+						<br /> in upcoming months and also looking forward for
+						the CPQ Certification
 					</span>
 					<Link to="contact" spy={true} smooth={true}>
 						<button className="button s-button">Hire Me</button>
@@ -57,7 +58,7 @@ const Works = () => {
 			</div>
 			<div className="w-right">
 				<motion.div
-					initial={{ rotate: 45 }}
+					initial={{ rotate: 145 }}
 					whileInView={{ rotate: 0 }}
 					viewport={{ margin: "10px" }}
 					transition={{ duration: 3.5, type: "spring" }}
@@ -70,8 +71,11 @@ const Works = () => {
 						<img src={PlatformDeveloper1} alt="" width={"100%"} />
 					</div>
 					<div className="w-secCircle">
+						<img src={PD2} alt="" width={"100%"} />
+					</div>
+					<div className="w-secCircle">
 						<img src={Administrator} alt="" width={"100%"} />
-					</div>{" "}
+					</div>
 					<div className="w-secCircle">
 						<img src={OmniStudioDeveloper} alt="" width={"100%"} />
 					</div>
