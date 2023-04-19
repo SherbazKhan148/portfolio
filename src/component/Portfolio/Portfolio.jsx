@@ -21,6 +21,12 @@ const Portfolio = () => {
 	const theme = useContext(themeContext);
 	const darkMode = theme.state.darkMode;
 
+	const handleClick = (e) => {
+		alert(
+			"Sorry this website is not public now as HEROKU is NOT FREE anymore."
+		);
+	};
+
 	return (
 		<div className="portfolio" id="portfolio">
 			{/* heading */}
@@ -66,12 +72,13 @@ const Portfolio = () => {
 				</SwiperSlide>
 				<SwiperSlide>
 					<div className="flip-box">
-						<a
+						{/* <a
 							href="https://sherbaz-lwc-ecommerce.herokuapp.com/"
 							target="_blank"
 							rel="noreferrer"
 							style={{ zIndex: "10" }}
-						>
+						> */}
+						<button onClick={handleClick}>
 							<div className="flip-box-inner">
 								<div className="flip-box-front">
 									<img
@@ -87,16 +94,18 @@ const Portfolio = () => {
 									</span>
 								</div>
 							</div>
-						</a>
+						</button>
+						{/* </a> */}
 					</div>
 				</SwiperSlide>
 				<SwiperSlide>
 					<div className="flip-box">
-						<a
+						{/* <a
 							href="https://sherbaz148proshop.herokuapp.com/"
 							target="_blank"
 							rel="noreferrer"
-						>
+						> */}
+						<button onClick={handleClick}>
 							<div className="flip-box-inner">
 								<div className="flip-box-front">
 									<img
@@ -113,7 +122,8 @@ const Portfolio = () => {
 									</span>
 								</div>
 							</div>
-						</a>
+						</button>
+						{/* </a> */}
 					</div>
 				</SwiperSlide>
 				<SwiperSlide>
