@@ -64,8 +64,8 @@ const Portfolio = () => {
 								</div>
 								<div className="flip-box-back">
 									<span>
-										Activate/Deactive Trigger, Flow & VR
-										(LWC APP)
+										Activate/Deactive Trigger, Flow & VR -
+										LWC
 									</span>
 								</div>
 							</div>
