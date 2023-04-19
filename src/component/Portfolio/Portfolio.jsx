@@ -15,6 +15,7 @@ import Paypal from "../../img/Paypal.png";
 import WhatsApp from "../../img/WhatsApp.jpg";
 import Stripe from "../../img/Stripe.png";
 import Proshop from "../../img/Proshop.png";
+import EasyToConfigure from "../../img/EasyToConfigure.png";
 
 import { themeContext } from "../../Context";
 const Portfolio = () => {
@@ -22,6 +23,7 @@ const Portfolio = () => {
 	const darkMode = theme.state.darkMode;
 
 	const handleClick = (e) => {
+		e.preventDefault();
 		alert(
 			"Sorry this website is not public now as HEROKU is NOT FREE anymore."
 		);
@@ -43,6 +45,33 @@ const Portfolio = () => {
 				grabCursor={true}
 				className="portfolio-slider"
 			>
+				<SwiperSlide>
+					<div className="flip-box">
+						<a
+							href="https://www.youtube.com/watch?v=jBv7gu5rXTw"
+							target="_blank"
+							rel="noreferrer"
+							style={{ width: "100%", height: "100%" }}
+						>
+							<div className="flip-box-inner">
+								<div className="flip-box-front">
+									<img
+										src={EasyToConfigure}
+										alt=""
+										height={250}
+										width={380}
+									/>
+								</div>
+								<div className="flip-box-back">
+									<span>
+										Activate/Deactive Trigger, Flow & VR
+										(LWC APP)
+									</span>
+								</div>
+							</div>
+						</a>
+					</div>
+				</SwiperSlide>
 				<SwiperSlide>
 					<div className="flip-box">
 						<a
@@ -72,13 +101,13 @@ const Portfolio = () => {
 				</SwiperSlide>
 				<SwiperSlide>
 					<div className="flip-box">
-						{/* <a
+						<a
 							href="https://sherbaz-lwc-ecommerce.herokuapp.com/"
 							target="_blank"
 							rel="noreferrer"
 							style={{ zIndex: "10" }}
-						> */}
-						<button onClick={handleClick}>
+							onClick={handleClick}
+						>
 							<div className="flip-box-inner">
 								<div className="flip-box-front">
 									<img
@@ -94,18 +123,17 @@ const Portfolio = () => {
 									</span>
 								</div>
 							</div>
-						</button>
-						{/* </a> */}
+						</a>
 					</div>
 				</SwiperSlide>
 				<SwiperSlide>
 					<div className="flip-box">
-						{/* <a
+						<a
 							href="https://sherbaz148proshop.herokuapp.com/"
 							target="_blank"
 							rel="noreferrer"
-						> */}
-						<button onClick={handleClick}>
+							onClick={handleClick}
+						>
 							<div className="flip-box-inner">
 								<div className="flip-box-front">
 									<img
@@ -122,8 +150,7 @@ const Portfolio = () => {
 									</span>
 								</div>
 							</div>
-						</button>
-						{/* </a> */}
+						</a>
 					</div>
 				</SwiperSlide>
 				<SwiperSlide>
